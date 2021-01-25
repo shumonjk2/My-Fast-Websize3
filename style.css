@@ -21,11 +21,11 @@ div.half-width img{
 
 }
 
-.top-banner  {
+.top-banner {
     border: 1px solid red;
-    margin: 0;
+    
     background-image: url("images/top-banner.png");
-    background-position: right;
+    background-position: left;
     background-repeat: no-repeat;
     height: 600px;
 }
@@ -38,7 +38,7 @@ div.half-width img{
     
 }
 section{
-    
+    height: 500px;
 }
 .link-anchor{
     text-decoration: none;
@@ -48,7 +48,7 @@ section{
     border-radius: 10px;
     color: white;
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
 }
 .link-anchor img{
     width: 16px;
@@ -69,5 +69,85 @@ section{
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
     border-radius: 20px;
+}
+
+
+
+
+
+.skills-section{
+    height: 315px;
+    padding:1% 20%;  
+    border: 1px solid red;
+    background-image: azure;
+    
+     
+}
+.skills-section li{
+    background-color: salmon;
+    border-radius: 10px;  
+}
+li.html{
+    width: 90%;
+}
+li.css{
+    width: 80%;
+}
+li.javascript{
+    width: 50%;
+}
+.skills-section h2{
+    text-align: center;
+}
+.skills-section h3{
+    line-height: 30px;
+    padding: 5px 0 0 20px;
+}
+
+
+
+
+
+
+.contact-form{
+    padding: 6% 20%;
+}
+.form-contents{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #3E3E3E;
+    line-height: 24px;
+    border-radius: 10px;
+    background-color: #f8f9fc;
+}
+.contact-form h2{
+    text-align: center;
+}
+.contact-form input{
+    width: 45%;
+    padding: 2%;
+    border: 1;
+    margin-bottom: 15px;
+    border: 1px solid red;
+    box-shadow: 10px 10px 40px gray;
+}
+.contact-form input.email-right{
+    float: right;
+}
+.contact-form textarea{
+    width: 96%;
+    padding: 2%;
+    border: none;
+    border: 1px solid red;
+    box-shadow: 10px 10px 40px gray;
+}
+.contact-form button{
+    width: 100%;
+    padding: 2%;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid red;
+    box-shadow: 10px 10px 40px gray;
 }
 
