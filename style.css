@@ -4,6 +4,27 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+header{
+    height: 60px;
+}
+nav{
+    float: right;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    float: left;
+    padding-right: 20px;
+}
+li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #3C3C3C;
+    font-weight: bold;
+}
+
 h1{
     font-size: 50px;
 }
